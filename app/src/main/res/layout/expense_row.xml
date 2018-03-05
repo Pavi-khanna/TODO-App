@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/title"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Title"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:id="@+id/description"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:text="Desc"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
+
+<TextView android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+    android:id="@+id/amount"
+    android:maxLines="1"
+    android:text="Price"
+    android:gravity="center"
+    android:layout_marginLeft="16dp"/>
+
+</LinearLayout>
